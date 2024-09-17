@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web lab1</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <style>
+        .borderElement {
+    background-color: blue; 
+    border: 6px solid #FFFFFF;
+   border-radius: 22px 0 22px 0; /* Левый верхний и правый нижний углы скруглены */
+    padding: 5px;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    z-index: 1000;
+    width: 100px;
+    height: 150px;
+}
+.borderElement p {
+    color: blue; /* Устанавливаем цвет текста синий */
+}
+        .header {
+            font-weight: lighter; /* Уменьшаем вес шрифта */
+            font-size: 16px; /* Задаем размер шрифта */
+            color: white; /* Изменяем цвет текста для легкости восприятия */
+        }
+        h1 {
+            font-weight: lighter; /* Уменьшаем вес шрифта */
+            font-size: 24px; /* Задаем размер шрифта для заголовка */
+            color: white; /* Используем мягкий цвет для заголовка */
+        }
+   footer {
+            font-weight: bold; /* Делаем текст жирным */
+            font-size: 18px; /* Задаем размер шрифта для подвала */
+            color: black; /* Цвет текста в подвале */
+            text-align: center; /* Выравнивание текста по центру */
+            padding: 10px; /* Отступы для подвала */
+        }
+    </style>
+</head>
+<body>
+    <header class="header">Hello, Header!</header>
+    <div class="content">
+        <h1>Hello, content!</h1>
+        <p>
+
+<div class="container">
+    <div class="borderElement">
+        <p>T.</p>
+    </div>
+    <div class="text-content">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset </p>
+    </div>
+  <div class="text-content2">
+        <p>   sheets   containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
+</div>
+     
+        </p>
+        <a href="http://www.csd.tsu.ru" class="link">www.csd.tsu.ru</a>
+        <h2><span class="highlight">Here</span> is the list:</h2>
+        <ul class="list">
+            <li>Value 1</li>
+            <li class="list-item-2">V&nbsp;&nbsp;a&nbsp;&nbsp;l&nbsp;&nbsp;u&nbsp;&nbsp;e&nbsp;&nbsp; 2</li> <!-- Добавлены пробелы -->
+            <li>Value 3</li>
+        </ul>
+        <div class="visual-styles">
+            <h3>Here are some visual styles:</h3>
+            <span><i>Italic</i></span><br>
+            <span><b>Bold</b></span><br>
+            <span><u>UnderLined</u></span><br>
+            <span style="text-decoration: line-through;">Line through</span>
+        </div>
+<img src="images.png" alt="Рыжий кот Кекс лежит у ноутбука." width="24=" height="24" style="position: relative; left: 700px;">
+
+
+
+        <div class="grid">
+            <div class="tall">1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div class="red">7</div>
+        </div>
+    </div>
+    <footer class="footer">Hello, Footer!</footer>
+</body>
+</html>
